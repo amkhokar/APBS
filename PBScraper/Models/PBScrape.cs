@@ -34,10 +34,10 @@ namespace PBScraper.Models
         public PBScrape(string Keyword = "Bongos", int Id = 0, string Url = "https://Bongos.com", string Email = "Bongos@Bongos.Com", string Phone = "333-333-3333")
         {
             _id = Id;
-            _keyword = "Bongos";
-            _url = "https://Bongos.com";
-            _email = "Bongos@Bongos.Com";
-            _phone = "333-333-3333";
+            _keyword = Keyword;
+            _url = Url;
+            _email = Email;
+            _phone = Phone;
         }
 
         public int GetId()
